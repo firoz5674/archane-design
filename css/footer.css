@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600&display=swap');
+body, h1, h2, h3, h4, h5, h6, p, a, span, i { font-family: 'Work Sans', sans-serif; }
+html { scroll-behavior: smooth; }
+
+/*  common cta */
+.common-cta {
+    background-color: #e4effd;
+    position: relative;
+    padding: 40px 0px 40px 0px;
+}
+.common-cta h4 {
+    color: #141d27;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.common-cta ul li {
+    list-style: none;
+    display: inline-block;
+}
+.common-cta .btn-primary {
+    background-color: #1c344c;
+    border-color: #1e3144;
+    padding: 19px 32px 20px 32px;
+    margin-right: 20px;
+    border-radius: 100px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.common-cta .btn-danger {
+    background-color: #1c344c;
+    border-color: #1e3144;
+    padding: 19px 32px 20px 32px;
+    border-radius: 100px;
+}
+.common-cta img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .common-cta h4 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .common-cta ul {
+        padding-inline-start: initial;
+    }
+    .common-cta .btn-primary {
+        margin-bottom: 20px;
+    }
+    .common-cta .btn-danger {
+        padding: 19px 53px 20px 28px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .common-cta h4 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .common-cta ul {
+        padding-inline-start: initial;
+    }
+    .common-cta .btn-primary {
+        margin-bottom: 20px;
+    }
+    .common-cta .btn-danger {
+        padding: 19px 53px 20px 28px;
+    }
+}
+@media (min-width: 414px) and (max-width: 480px) {
+    .common-cta h4 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .common-cta ul {
+        padding-inline-start: initial;
+    }
+    .common-cta .btn-primary {
+        margin-bottom: 20px;
+    }
+    .common-cta .btn-danger {
+        padding: 19px 53px 20px 28px;
+    }
+}
+@media (min-width: 480px) and (max-width: 568px) {
+    .common-cta h4 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .common-cta ul {
+        padding-inline-start: initial;
+    }
+    .common-cta .btn-primary {
+        margin-bottom: 20px;
+    }
+    .common-cta .btn-danger {
+        padding: 19px 53px 20px 28px;
+    }
+}
+/* //common cta */
+
+/* fix-whatsapp */
+.fix-whatsapp {
+    position: fixed;
+    display: block;
+    bottom: 0px;
+    background-color: #fff;
+    padding: 5px;
+    border: none;
+    z-index: 10000;
+    width: 100%;
+    box-shadow:0px -1px 5px rgba(0,0,0,0.2);
+}
+.fix-whatsapp ul {
+    margin: 0px;
+    padding: 10px 0px 5px 0px;
+    list-style: none;
+    padding-inline-start: initial;
+}
+.fix-whatsapp ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+.fix-whatsapp .btn-info {
+    background-color: #4FCE5D;
+    border-color: #4FCE5D;
+    border-radius: 0px;
+}
+.fix-whatsapp .btn-primary {
+    background-color: rgb(38, 96, 182);
+    border-color: rgb(38, 96, 182);
+    border-radius: 0px;
+    margin-right: 7px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) { 
+    .fix-whatsapp .btn-info {
+        width: 145px;
+    }
+    .fix-whatsapp .btn-primary {
+        width: 145px;
+    }
+} 
+@media (min-width: 375px) and (max-width: 414px) { 
+    .fix-whatsapp .btn-info {
+        width: 170px;
+    }
+    .fix-whatsapp .btn-primary {
+        width: 170px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) { 
+    .fix-whatsapp .btn-info {
+        width: 190px;
+    }
+    .fix-whatsapp .btn-primary {
+        width: 190px;
+    }
+}    
+
+/* //fix-whatsapp */
+
+
+footer {
+    background-color: #141d27;
+    padding: 50px 0px;
+}
+footer h3 {
+    color: rgb(214, 214, 214);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+footer .footer-logo img {
+    width: 260px;
+}
+footer .footer-menu ul {
+    margin-top: 20px;
+    padding-inline-start: initial;
+    margin-left: 7px;
+}
+footer .footer-menu ul li {
+    list-style: none;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+footer .footer-menu ul li a {
+    color: rgb(204, 204, 204);
+    font-size: 16px;
+}
+footer .footer-social-media ul {
+    margin-top: 30px;
+    padding-inline-start: initial;
+    margin-left: 8px;
+}
+footer .footer-social-media ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px;
+}
+footer .fa-facebook-f {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 13px 16px 13px 17px;
+    border-radius: 100px;
+    font-size: 22px;
+}
+footer .fa-instagram {
+    background-color: #ff0084;
+    color: #fff;
+    padding: 13px 14px 13px 14px;
+    border-radius: 100px;
+    font-size: 22px;
+}
+footer .fa-twitter {
+    background-color: #00aced;
+    color: #fff;
+    padding: 14px 13px 14px 14px;
+    border-radius: 100px;
+    font-size: 22px;
+}
+footer .fa-linkedin-in {
+    background-color: #007bb6;
+    color: #fff;
+    padding: 14px 15px 14px 15px;
+    border-radius: 100px;
+    font-size: 22px;
+}
+footer .footer-contact h3 {
+    margin-bottom: 20px;
+}
+footer .footer-contact ul {
+    padding-inline-start: initial;
+    margin-left: 7px;
+}
+footer .footer-contact ul li {
+    list-style: none;
+    margin-bottom: 13px;
+    color: rgb(204, 204, 204);
+}
+footer .footer-contact ul li a {
+    color: rgb(204, 204, 204);
+}
+footer .footer-contact .fa {
+    color: #3180da;
+    margin-right: 5px;
+}
+footer p {
+    color: rgb(204, 204, 204);
+}
+@media (max-width: 674px) {
+    footer .footer-logo img {
+        margin-bottom: 30px;
+    }
+    footer .footer-contact h3 {
+        margin-top: 25px;
+    }
+    footer h3 {
+        margin-top: 22px;
+    }
+ 
+}
+
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
