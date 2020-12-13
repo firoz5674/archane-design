@@ -85,6 +85,7 @@ header {
   background-position: center center;
   padding: 0rem 0rem 0rem 0rem !important;
   border-radius: 0px;
+  margin-bottom: 0px !important;
 }
 .jumbotron-shadow {
   height: 680px;
@@ -205,6 +206,151 @@ header {
   }
 }
 /*  //main banner*/
+
+.step-slider {
+  padding: 50px 0px 60px 0px;
+  background-color: #f7f7f7;
+}
+.step-slider h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: rgb(62 61 61);
+  text-align: center;
+  margin-bottom: 50px;
+}
+.slider {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.slide_viewer {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.step-slider .slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.step-slider .slide:first-child {
+  display: block;
+}
+
+.step-slider .slide:nth-of-type(1) {
+  background: url('../images/home/client-meeting.png') no-repeat;
+  height: 402px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.step-slider .slide:nth-of-type(2) {
+  background: url('../images/home/estimation-costing.png') no-repeat;
+  height: 402px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.step-slider .slide:nth-of-type(3) {
+  background: url('../images/home/design-dev.png') no-repeat;
+  height: 402px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.step-slider .slide:nth-of-type(4) {
+  background: url('../images/home/execution.png') no-repeat;
+  height: 402px;
+  background-size: cover;
+  background-position: center center;
+}
+.step-slider .slide:nth-of-type(5) {
+  background: url('../images/home/completion.png') no-repeat;
+  height: 402px;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.slide_buttons {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.step-slider .slide_btn {
+  color: #474544;
+  font-size: 42px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: #428CC6;
+  cursor: pointer;
+}
+
+.directional_nav {
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+  top: -220px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 80px;
+  top: 20px;
+  margin: auto;
+  position: absolute;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 80px;
+  top: 0;
+}
+
+.previous_btn, .next_btn {
+  cursor: pointer;
+  height: 65px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  width: 65px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+  .next_btn {
+    right: 50px;
+  }
+}
 
 /* indial section */
 .initial-section {
