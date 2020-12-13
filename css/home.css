@@ -138,7 +138,7 @@ header {
 @media (min-width: 320px) and (max-width: 375px) {
   .jumbotron .jumbotron-text {
     position: absolute;
-    left: 3%;
+    left: 10%;
     top: 30%;
   }
   .jumbotron .jumbotron-text h1 {
@@ -149,18 +149,18 @@ header {
 @media (min-width: 375px) and (max-width: 414px) {
   .jumbotron .jumbotron-text {
     position: absolute;
-    left: 3%;
+    left: 10%;
     top: 30%;
   }
   .jumbotron .jumbotron-text h1 {
-    font-size: 32px;
-    line-height: 49px;
+    font-size: 30px;
+    line-height: 42px;
   }
 }
 @media (min-width: 414px) and (max-width: 480px) {
   .jumbotron .jumbotron-text {
     position: absolute;
-    left: 3%;
+    left: 12%;
     top: 30%;
   }
   .jumbotron .jumbotron-text h1 {
@@ -171,12 +171,12 @@ header {
 @media (min-width: 480px) and (max-width: 568px) {
   .jumbotron .jumbotron-text {
     position: absolute;
-    left: 3%;
+    left: 12%;
     top: 30%;
   }
   .jumbotron .jumbotron-text h1 {
     font-size: 41px;
-    line-height: 63px;
+    line-height: 58px;
   }
 }
 @media (max-width: 674px) {
@@ -343,14 +343,183 @@ header {
   opacity: 1;
 }
 
-@media only screen and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 375px) {
+  .step-slider .slide:nth-of-type(1) {
+    background: url('../images/home/client-meeting-320.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(2) {
+    background: url('../images/home/estimation-costing-320.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(3) {
+    background: url('../images/home/design-dev-320.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(4) {
+    background: url('../images/home/execution-320.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(5) {
+    background: url('../images/home/completion-320.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .previous_btn {
+    left: 7px;
+  }
+  .step-slider .next_btn {
+    right: 10px;
+    top: 16px;
+  }
+  .step-slider h2 {
+    font-size: 28px;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  .step-slider .slide:nth-of-type(1) {
+    background: url('../images/home/execution-375.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(3) {
+    background: url('../images/home/design-dev-375.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(2) {
+    background: url('../images/home/estimation-costing-375.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(4) {
+    background: url('../images/home/execution-414.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(5) {
+    background: url('../images/home/completion-375.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .previous_btn {
+    left: 7px;
+  }
+  .step-slider .next_btn {
+    right: 10px;
+    top: 16px;
+  }
+  .step-slider h2 {
+    font-size: 30px;
+  }
+}
+@media (min-width: 414px) and (max-width: 480px) {
+  .step-slider .slide:nth-of-type(1) {
+    background: url('../images/home/client-meeting-414.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(2) {
+    background: url('../images/home/estimation-costing-414.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(3) {
+    background: url('../images/home/design-dev-414.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(4) {
+    background: url('../images/home/execution-414.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(5) {
+    background: url('../images/home/completion-414.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .previous_btn {
+    left: 7px;
+  }
+  .step-slider .next_btn {
+    right: 10px;
+    top: 16px;
+  }
+  .step-slider h2 {
+    font-size: 32px;
+  }
+}
+@media (min-width: 480px) and (max-width: 568px) {
+  .step-slider .slide:nth-of-type(1) {
+    background: url('../images/home/client-meeting-480.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(2) {
+    background: url('../images/home/estimation-costing-480.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(3) {
+    background: url('../images/home/design-dev-480.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(4) {
+    background: url('../images/home/execution-480.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .slide:nth-of-type(5) {
+    background: url('../images/home/completion-480.png') no-repeat;
+    height: 402px;
+    background-size: cover;
+    background-position: center center;
+  }
+  .step-slider .previous_btn {
+    left: 7px;
+  }
+  .step-slider .next_btn {
+    right: 10px;
+    top: 16px;
+  }
+  .step-slider h2 {
+    font-size: 34px;
+  }
+}
+
+/* @media only screen and (max-width: 767px) {
   .previous_btn {
     left: 50px;
   }
   .next_btn {
     right: 50px;
   }
-}
+} */
 
 /* indial section */
 .initial-section {
@@ -379,6 +548,35 @@ header {
 .initial-section img {
   border-radius: 4px;
 }
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .initial-section h2 {
+    font-size: 22px;
+    line-height: 33px;
+    margin: 15px 0px;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  .initial-section h2 {
+    font-size: 24px;
+    line-height: 33px;
+    margin: 15px 0px;
+  }
+}
+@media (min-width: 414px) and (max-width: 480px) {
+  .initial-section h2 {
+    font-size: 26px;
+    line-height: 33px;
+    margin: 15px 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 568px) {
+  .initial-section h2 {
+    font-size: 28px;
+    line-height: 33px;
+    margin: 15px 0px;
+  }
+}
 /* //indial section */
 
 main {
@@ -389,10 +587,12 @@ main h2 {
   font-size: 42px;
   color: rgb(62 61 61);
   font-weight: 600;
+  text-align: left;
 }
 main p {
   color: rgb(83, 83, 83);
   font-size: 17px;
+  text-align: left;
 }
 main .filter-tabs {
   margin-top: 25px; 
@@ -433,6 +633,72 @@ main .modal-body {
 main .modal-lg {
   /* width of modal */
   max-width: 1010px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  main h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  main p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  main .btn-primary {
+    margin-bottom: 18px;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  main h2 {
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  main p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  main .btn-primary {
+    margin-bottom: 18px;
+  }
+  main .portfolio-caption {
+    margin-left: 7px;
+  }
+}
+@media (min-width: 414px) and (max-width: 480px) {
+  main h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  main p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  main .btn-primary {
+    margin-bottom: 18px;
+  }
+  main .portfolio-caption {
+    margin-left: 27px;
+  }
+}
+@media (min-width: 480px) and (max-width: 568px) {
+  main h2 {
+    font-size: 33px;
+    text-align: center;
+    padding-bottom: 12px;
+  }
+  main p {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  main .btn-primary {
+    margin-bottom: 18px;
+  }
+  main .portfolio-caption {
+    margin-left: 60px;
+  }
 }
 
 /*  */
@@ -480,6 +746,27 @@ main .modal-lg {
   font-size: 42px;
   color: #d35459;
   font-weight: 600;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .strength h3 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+  .strength h3 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 414px) and (max-width: 480px) {
+  .strength h3 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 480px) and (max-width: 568px) {
+  .strength h3 {
+    font-size: 25px;
+  }
 }
 
 /* interior CTA */
