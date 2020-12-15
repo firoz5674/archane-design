@@ -178,6 +178,10 @@ footer h3 {
 footer .footer-logo img {
     width: 260px;
 }
+footer .footer-logo p {
+    font-weight: 600;
+    font-size: 20px;
+}
 footer .footer-menu ul {
     margin-top: 20px;
     padding-inline-start: initial;
