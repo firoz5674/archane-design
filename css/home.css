@@ -84,7 +84,7 @@ header {
 
 /*  main banner*/
 .jumbotron {
-  background: url("../images/home/banner.jpg") no-repeat;
+  background: url("../images/home/home-banner.jpg") no-repeat;
   height: 680px;
   background-size: cover;
   background-position: center center;
@@ -119,8 +119,8 @@ header {
 .jumbotron .jumbotron-text {
   position: absolute;
   top: 65%;
-  left: 12%;
-  right: 12%;
+  left: 26%;
+  right: 18%;
   text-align: center;
 }
 .jumbotron .jumbotron-text h1 {
@@ -129,11 +129,12 @@ header {
   font-weight: 700;
   line-height: 59px;
   text-transform: capitalize;
+  max-width: 55vw;
 }
 .jumbotron .btn-info {
   background-color: #d35459;
   border-color: #d35459;
-  width: 250px;
+  width: 200px;
   font-weight: 600;
   margin-top: 25px;
   border-radius: 100px;
@@ -143,29 +144,31 @@ header {
 @media (min-width: 320px) and (max-width: 375px) {
   .jumbotron .jumbotron-text {
     position: absolute;
-    left: 10%;
+    left: 24%;
     top: 30%;
   }
   .jumbotron .jumbotron-text h1 {
     font-size: 28px;
     line-height: 42px;
+    max-width: 85vw;
   }
 }
 @media (min-width: 375px) and (max-width: 414px) {
   .jumbotron .jumbotron-text {
     position: absolute;
-    left: 10%;
+    left: 24%;
     top: 30%;
   }
   .jumbotron .jumbotron-text h1 {
     font-size: 30px;
     line-height: 42px;
+    max-width: 85vw;
   }
 }
 @media (min-width: 414px) and (max-width: 480px) {
   .jumbotron .jumbotron-text {
     position: absolute;
-    left: 12%;
+    left: 20%;
     top: 30%;
   }
   .jumbotron .jumbotron-text h1 {
@@ -176,12 +179,13 @@ header {
 @media (min-width: 480px) and (max-width: 568px) {
   .jumbotron .jumbotron-text {
     position: absolute;
-    left: 12%;
+    left: 30%;
     top: 30%;
   }
   .jumbotron .jumbotron-text h1 {
     font-size: 41px;
     line-height: 58px;
+    max-width: 100%;
   }
 }
 @media (max-width: 674px) {
@@ -290,7 +294,7 @@ header {
   background-position: center center;
 }
 .step-slider .slide:nth-of-type(5) {
-  background: url('../images/home/completion.png') no-repeat;
+  background: url('../images/home/completion.webp') no-repeat;
   height: 402px;
   background-size: cover;
   background-position: center center;
@@ -817,6 +821,24 @@ main .modal-lg {
   color: #fff;
   margin-top: 20px;
   text-transform: capitalize;
+}
+
+@media (max-width: 480px) {
+  .interior-cta {
+    background: url('../images/home/interior-cta-480.png') no-repeat;
+    height: 500px;
+  }
+  .interior-cta .interior-cta-caption {
+    top: 9%;
+  }
+  .interior-cta .interior-cta-caption h3 {
+    line-height: 5vw;
+    font-size: 4vw;
+  }
+  .interior-cta .btn-warning {
+    padding: 6px 17px 7px 17px;
+    width: 170px;
+  }
 }
 /* //interior CTA */
 

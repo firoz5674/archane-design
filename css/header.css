@@ -1,0 +1,103 @@
+/* navbar */
+header {
+    background-color: #f8f9fa !important;
+  }
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  .navbar-brand {
+    font-weight: 600;
+  }
+  .bg-light .navbar-nav .nav-link {
+    color: rgb(75, 74, 74);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 20px 16px;
+    font-size: 17px;
+  }
+  .bg-light .navbar-nav .btn-danger {
+    background-color: #d35459;
+    color: #fff;
+    padding: 6px 25px 9px 25px;
+    font-size: 15px;
+    margin-top: 13px;
+    margin-left: 30px;
+    border-radius: 100px;
+  }
+  .dropdown-toggle::after {
+    border-top: 0 !important;
+    content: "\f078";
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    color: rgb(75, 74, 74);
+    font-size: 13px;
+    padding-top: 10px;
+    border-left: 0;
+    border-right: 0;
+    vertical-align: 0;
+    width: 0;
+    height: 0;
+  }
+  .dropdown {
+    margin-top: -5px;
+  }
+  .bg-light .dropdown-menu {
+    background-color: #f8f9fa;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  .bg-light .navbar-nav .dropdown-item {
+    color: rgb(78, 78, 78);
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+  }
+  @media (max-width: 674px) {
+    .bg-light .navbar-nav {
+      padding: 10px 0px;
+    }
+    .bg-light .navbar-nav .nav-link {
+      line-height: 30px;
+      color: rgb(238, 238, 238);
+      font-size: 5.3vw;
+      border-bottom: 1px solid rgb(110, 109, 109);
+      padding: 2.9vw 6.4vw;
+    }
+    #navbarNavDropdown {
+      background-color: #1b1b1b;
+      z-index: 1;
+      position: absolute;
+      top: 67px;
+      width: 100%;
+    }
+    .bg-light .navbar-nav .dropdown-menu {
+      margin-top: 10px;
+      margin: 15px;
+    }
+    .bg-light .navbar-nav .dropdown-item {
+      padding: 8px 20px;
+    }
+    .navbar {
+      padding: 14px 0px;
+    }
+    .navbar-light .navbar-toggler {
+      border: 2px solid #fff;
+    }
+    .bg-light .navbar-nav .btn-danger {
+      width: 190px;
+      font-size: 5vw;
+      padding: 2vw 3vw;
+    }
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 375px) {
+    .bg-light .navbar-nav .nav-link {
+      padding: 8px 0px;
+    }
+  }
+  /* //navbar */
+  

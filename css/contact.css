@@ -1,0 +1,59 @@
+.jumbotron {
+  background: url("../images/contact-bg.webp") no-repeat;
+  height: 650px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  padding: inherit !important;
+}
+
+main {
+  padding: 1.5vw 0vw 2vw 0vw;
+}
+main h1 {
+  font-size: 2.1vw;
+  line-height: 3vw;
+  color: rgb(62 61 61);
+  max-width: 70%;
+  margin: 0 auto;
+  margin-bottom: 3vw;
+}
+main ul li {
+  list-style: none;
+  margin-bottom: 1.1vw;
+  font-size: 17px;
+}
+main .fa {
+  margin-right: 10px;
+}
+main .btn-primary {
+  background-color: #d35459;
+  border-color: #d35459;
+  width: 200px;
+  font-weight: 600;
+  margin-top: 25px;
+  border-radius: 100px;
+  padding: 10px 22px 12px 22px;
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    padding-bottom: 6vw;
+  }
+  main h1 {
+    font-size: 6vw;
+    max-width: 100%;
+    line-height: 9vw;
+    margin-bottom: 9vw;
+  }
+  main ul {
+    padding-inline-start: inherit;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+  }
+  main ul li {
+    margin-bottom: 3vw;
+    font-size: 4.4vw;
+  }
+}
+

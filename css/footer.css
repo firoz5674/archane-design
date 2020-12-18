@@ -203,13 +203,21 @@ html { scroll-behavior: smooth; }
 
 @media (min-width: 320px) and (max-width: 375px) { 
     .fix-whatsapp .btn-info {
-        width: 145px;
+        width: 135px;
     }
     .fix-whatsapp .btn-primary {
-        width: 145px;
+        width: 135px;
     }
 } 
 @media (min-width: 375px) and (max-width: 414px) { 
+    .fix-whatsapp .btn-info {
+        width: 160px;
+    }
+    .fix-whatsapp .btn-primary {
+        width: 160px;
+    }
+}
+@media (min-width: 414px) and (max-width: 480px) { 
     .fix-whatsapp .btn-info {
         width: 170px;
     }
@@ -217,7 +225,10 @@ html { scroll-behavior: smooth; }
         width: 170px;
     }
 }
-@media (min-width: 414px) and (max-width: 568px) { 
+@media (min-width: 480px) and (max-width: 568px) { 
+    .fix-whatsapp ul {
+        padding: 14px 0px 12px 0px;
+    }
     .fix-whatsapp .btn-info {
         width: 190px;
     }
@@ -270,7 +281,7 @@ footer .footer-social-media ul li {
     display: inline-block;
     padding: 3px;
 }
-footer .fa-facebook-f {
+footer .fa-facebook {
     background-color: #3b5998;
     color: #fff;
     padding: 13px 16px 13px 17px;
@@ -291,7 +302,7 @@ footer .fa-twitter {
     border-radius: 100px;
     font-size: 22px;
 }
-footer .fa-linkedin-in {
+footer .fa-linkedin {
     background-color: #007bb6;
     color: #fff;
     padding: 14px 15px 14px 15px;
@@ -313,9 +324,9 @@ footer .footer-contact ul li {
 footer .footer-contact ul li a {
     color: rgb(83, 83, 83)
 }
-footer .footer-contact .fa {
+footer .footer-contact .fa, .fab {
     color: #3180da;
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 footer p {
     color: rgb(62 61 61);
